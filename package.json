@@ -1,7 +1,7 @@
 {
   "name": "jwt-language",
   "displayName": "jwt-language",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "JWT language highlighting",
   "repository": {
     "type": "git",
@@ -16,17 +16,26 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "jwt",
-      "aliases": ["JSON Web Token", "jwt"],
-      "extensions": [".jwt"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "jwt",
-      "scopeName": "text.jwt",
-      "path": "./syntaxes/jwt.tmLanguage.json"
-    }],
+    "languages": [
+      {
+        "id": "jwt",
+        "aliases": [
+          "JSON Web Token",
+          "jwt"
+        ],
+        "extensions": [
+          ".jwt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "jwt",
+        "scopeName": "text.jwt",
+        "path": "./syntaxes/jwt.tmLanguage.json"
+      }
+    ],
     "configurationDefaults": {
       "[jwt]": {
         "editor.wordSeparators": ".",
