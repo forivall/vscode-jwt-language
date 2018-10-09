@@ -1,13 +1,14 @@
 {
   "name": "jwt-language",
   "displayName": "jwt-language",
-  "description": "JWT language highlighting",
   "version": "0.0.1",
-  "publisher": "forivall",
+  "description": "JWT language highlighting",
   "repository": {
     "type": "git",
     "url": "https://github.com/forivall/vscode-jwt-language.git"
   },
+  "author": "Emily Marigold Klassen <forivall@gmail.com>",
+  "publisher": "forivall",
   "engines": {
     "vscode": "^1.28.0"
   },
