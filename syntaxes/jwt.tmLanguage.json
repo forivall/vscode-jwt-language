@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "JSON Web Token",
+	"patterns": [{
+		"match": "^([^.]+)(?:(\\.)([^.]+)(?:(\\.)([^.]+)?)?$)?",
+		"captures": {
+			"1": {
+				"name": "storage.header.jwt"
+			},
+			"2": {
+				"name": "meta.separator.jwt"
+			},
+			"3": {
+				"name": "variable.payload.jwt"
+			},
+			"4": {
+				"name": "meta.separator.jwt"
+			},
+			"5": {
+				"name": "string.signature.jwt"
+			}
+		}
+	}],
+	"scopeName": "text.jwt"
+}
